@@ -29,6 +29,15 @@
         android:layout_gravity="center"
         android:layout_marginTop="100dp"/>
 
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="종료하기"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
 
 
 </LinearLayout>
