@@ -58,6 +58,12 @@
         android:text="@string/body06"
         android:textColor="#61380B"
         android:textStyle="bold" />
+    <Button
+        android:id="@+id/back_button02"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="돌아가기"
+        android:textStyle="bold"/>
 
 
 </LinearLayout>
