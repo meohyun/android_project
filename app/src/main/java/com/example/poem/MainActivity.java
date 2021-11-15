@@ -9,10 +9,17 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Button;
+import android.widget.TimePicker;
+import android.widget.Toast;
+
+import java.sql.Time;
+import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends Activity{
     TextView body01,body02;
     Button button01,button02;
+    Toast toast;
+    long backKeyPressedTime= 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,8 +60,6 @@ public class MainActivity extends Activity{
                 startActivity(intent);
             }
         });
-
-
 
     }
 }
